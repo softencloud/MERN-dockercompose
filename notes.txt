@@ -1,0 +1,29 @@
+In this lab you'll learn how to dockerize a MERN application (for development). 
+You'll learn about docker networks, volumes, port mapping, and more.
+A docker compose file enables us to pack the configuration of multiple containers in one place and 
+enables us to build multiple images, their network and containers.
+
+
+
+Docker compose
+: tool for defining & running multi-container docker applications
+: use yaml files to configure application services (docker-compose.yml)
+: can start all services with a single command : docker compose up
+: can stop all services with a single command : docker compose down
+: can scale up selected services when required
+
+Step 1 : install docker compose
+   (already installed on windows and mac with docker)
+   docker-compose -v
+
+Step 2 : Create docker compose file at any location on your system
+   docker-compose.yml
+
+Step 3 : Check the validity of file by command
+    docker-compose config
+
+Step 4 : Run docker-compose.yml file by command
+   docker-compose up -d
+
+Steps 5 : Bring down application by command
+   docker-compose down
